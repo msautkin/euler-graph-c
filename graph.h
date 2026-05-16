@@ -20,19 +20,19 @@ typedef struct {
 
 
 Graph* init_graph(int vertices);
-void free_graph(Graph* g);
-bool add_edge(Graph* g, int src, int dest);
-bool remove_edge(Graph* g, int src, int dest);
+void free_graph(Graph *g);
+bool add_edge(Graph *g, int src, int dest);
+bool remove_edge(Graph *g, int src, int dest);
 
 
-void print_graph(Graph* g);
-int degree(Graph* g, int v);
-int total_degree(Graph* g);
+void print_graph(Graph *g);
+int degree(Graph *g, int v);
+int total_degree(Graph *g);
 
-bool is_connected(Graph* g);
-bool is_eulerian(Graph* g);
+bool is_connected(Graph *g);
+bool is_eulerian(Graph *g);
 
-void hierholzer(Graph*g, int src);
+void hierholzer(Graph *g, int src);
 
 
 
